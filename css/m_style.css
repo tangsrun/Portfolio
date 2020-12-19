@@ -1,0 +1,28 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #000000;}
+
+header{height: 7.2rem;text-align: center;}
+header > .logo{padding-top: 1.2rem; background-color: #000000;}
+
+section > .keyvisual{text-align: center;background-image: url('../img/m_03.png');height: 70rem;}
+
+section > .keyvisual > img{padding-top: 10.5rem;}
+
+section > .profile{margin: 0; background-image: url('../img/m_06.png');height: 150.7rem;}
+
+.pf_01, .pf_02{text-align: center;}
+
+section > .profile > .pf_01{padding-top: 4.8rem;}
+section > .profile > .pf_02, .pf_03, .pf_04{margin-top: 3.7rem;}
+
+.pf1, .pf2{text-align: center;}
+
+section > .pf1{background-color: #000000;height: 5887px;}
+
+section > .pf1 > img{margin: 0;}
+
+footer {background-color: #000000;height: 24px;text-align: center;}
+footer > img{margin-top: 2.2rem;}

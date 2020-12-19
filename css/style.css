@@ -1,0 +1,67 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%;height: 8rem;background-color: Black;}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a{color: #ffffff;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover{color:#00f0ff; text-shadow: 0 0 10px #02c1d2,0 0 20px #00fffc,0 0 30px #00ccff,0 0 40px #0193bd,0 0 70px #00eaff,0 0 80px #00f0ff,0 0 100px #9196ff,0 0 150px #00eaff; background:#000;}
+
+section > .keyvisual{background-image: url('../img/02_keyvisual_bg.png');height: 70rem;}
+section > .keyvisual > .keyvisual_wrap{margin: auto;width: 102.4rem;height: 70rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title{padding-top: 19rem;text-align: center;}
+
+
+section > .profile{background-image: url('../img/04_profile.png');height: 138.9rem;}
+section > .profile > .profile_wrap{margin: auto;width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01{padding-top: 8.2rem;}
+section > .profile > .profile_wrap > .profile_02{margin-top: 5rem;}
+section > .profile > .profile_wrap > .profile_03{margin-top: 5rem;}
+section > .profile > .profile_wrap > .profile_04{margin-top: 5rem;}
+
+/*--portfolio 1--*/
+section > .pf_1{background-color: #000000;height: 110.0rem;}
+section > .pf_1 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_1 > .pf_wrap > .pf_tit_1{padding-top: 4.4rem;}
+section > .pf_1 > .pf_wrap > .pf_img_1{margin-top: 2rem;}
+section > .pf_1 > .pf_wrap > .pf_txt_1{}
+
+/*--portfolio 2--*/
+section > .pf_2{background-color: #000000;height: 110.0rem;}
+section > .pf_2 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_2 > .pf_wrap > .pf_tit_2{padding-top: 4.4rem;}
+section > .pf_2 > .pf_wrap > .pf_img_2{margin-top: 2rem;}
+section > .pf_2 > .pf_wrap > .pf_txt_2{}
+
+/*--portfolio 3--*/
+section > .pf_3{background-color: #000000;height: 112.0rem;background-size: cover;}
+section > .pf_3 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_3 > .pf_wrap > .pf_tit_3{padding-top: 4.4rem;}
+section > .pf_3 > .pf_wrap > .pf_img_3{}
+section > .pf_3 > .pf_wrap > .pf_txt_3{}
+
+/*--portfolio 4--*/
+section > .pf_4{background-color: #000000;height: 110.0rem;}
+section > .pf_4 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_4 > .pf_wrap > .pf_tit_4{padding-top: 4.4rem;}
+section > .pf_4 > .pf_wrap > .pf_img_4{margin-top: 2rem;}
+section > .pf_4 > .pf_wrap > .pf_txt_4{}
+
+/*--portfolio 5--*/
+section > .pf_5{background-color: #000000;height: 110.0rem;}
+section > .pf_5 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_5 > .pf_wrap > .pf_tit_5{padding-top: 4.4rem;}
+section > .pf_5 > .pf_wrap > .pf_img_5{margin-top: 2rem;}
+section > .pf_5 > .pf_wrap > .pf_txt_5{}
+
+
+
+footer{background-color: #000000;height: 11rem;}
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left;padding-top: 4.2rem;}
+footer > .footer_wrap > .footer_txt{float: right;padding-top: 3rem;text-align: right;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}
